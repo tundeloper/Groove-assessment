@@ -1,0 +1,16 @@
+.ul {
+    /* padding-left: 2rem; */
+    gap: .3rem;
+    padding-bottom: .5rem;
+    border-bottom: .1px solid rgb(37, 36, 36);
+}
+
+.li a{
+    display: flex; 
+    align-items: center;
+    gap: .5rem;
+}
+
+.li a:hover {
+    color: #FBBA12;
+}

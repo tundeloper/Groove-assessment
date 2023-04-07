@@ -1,0 +1,18 @@
+.user {
+    background: #171717fb;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding-left: 1rem;
+    /* font-size: 14px; */
+    height: 6rem;
+}
+
+/* .user div {
+
+} */
+
+.img {
+    background-image: url('../../../asset/User.png');
+    border-radius: 100%;
+}

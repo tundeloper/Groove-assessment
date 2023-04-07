@@ -1,12 +1,14 @@
-.container {
+/* .container {
   padding: 0 2rem;
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
+  width: 100vh;
+  min-height: 100vh; 
+  padding-bottom: 4rem;
   flex: 1;
   display: flex;
+  gap: 5px; 
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -126,4 +128,4 @@
   .logo img {
     filter: invert(1);
   }
-}
+} */

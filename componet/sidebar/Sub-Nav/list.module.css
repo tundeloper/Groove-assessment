@@ -1,0 +1,14 @@
+.ul {
+    gap: .6rem;
+    margin-bottom: 2rem;
+}
+
+.li a{
+    display: flex; 
+    align-items: center;
+    gap: .6rem;
+}
+
+.li a:hover {
+    color: #FBBA12;
+}

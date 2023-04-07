@@ -1,0 +1,43 @@
+
+.search {
+    padding: 1rem;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.form div {
+    position: relative;
+    /* width: auto;
+    height: auto; */
+}
+
+.nav { 
+    margin-top: -.7rem;
+}
+
+.nav span {
+    padding: .2rem 1rem .2rem 1rem;
+    padding-top: 1rem;
+    background: #171717fb;
+    /* background: blue; */
+    margin-right:2rem ;
+}
+
+.input {
+    width: 15rem;
+    height: 2.5rem;
+    background: transparent;
+    color: white;
+    border: 1px solid rgb(37, 36, 36);
+    padding-left: 2rem;
+}
+
+.search_svg {
+    position: absolute;
+    top: -1.7rem;
+    left: .5rem;
+    z-index: -1;
+}
+

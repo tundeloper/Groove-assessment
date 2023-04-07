@@ -1,0 +1,7 @@
+.sidebar {
+    background-image: url('../../asset/background.svg');
+    background-position: center;
+    background-size: contain;
+    width: 22rem;
+    height: 100vh;
+}

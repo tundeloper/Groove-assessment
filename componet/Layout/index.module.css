@@ -1,0 +1,5 @@
+.layout {
+    display: flex;
+    gap: 5px;
+    /* height: 100vh; */
+}

@@ -1,0 +1,9 @@
+.content {
+    width: 100%;
+}
+
+.card {
+    width: 98%;
+    border: 1px solid rgb(37, 36, 36);
+    padding: 8px;
+}
