@@ -1,5 +1,7 @@
 .content {
-    /* width: 80vw; */
+    width: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .user {
