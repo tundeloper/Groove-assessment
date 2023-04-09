@@ -6,6 +6,7 @@
 }
 
 .li a{
+    width: fit-content;
     display: flex; 
     align-items: center;
     gap: .5rem;
