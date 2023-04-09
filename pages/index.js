@@ -4,6 +4,7 @@ import { Sidebar } from "../componet/sidebar";
 import { Layout } from "../componet/Layout";
 import { Content } from "../componet/content";
 import { getDataFromAPI } from "../lib/data";
+import { MobileNav } from "../componet/MobileNav";
 
 export default function Home({ data }) {
   return (
@@ -18,7 +19,7 @@ export default function Home({ data }) {
         <Layout
           sidebar={<Sidebar />}
           content={<Content data={data} />}
-          mobileNav={<div>Mobile Nav</div>}
+          mobileNav={<MobileNav />}
         />
       </main>
 

@@ -2,6 +2,21 @@
     background-image: url('../../asset/background.svg');
     background-position: center;
     background-size: contain;
-    width: 22rem;
-    height: 100vh;
+    /* width: 22rem; */
+    position: relative;
+    /* height: 100vh; */
+}
+
+.sidebar div {
+    /* position: fixed; */
+}
+
+
+@media only screen and (max-width: 600px){
+	.sidebar {
+        display: none;
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
 }

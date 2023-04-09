@@ -3,3 +3,10 @@
     gap: 5px;
     /* height: 100vh; */
 }
+
+@media only screen and (max-width: 1200px){
+    
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+}

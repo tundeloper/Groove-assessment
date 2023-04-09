@@ -1,5 +1,6 @@
 .user {
     background: #171717fb;
+    width: 20rem;
     display: flex;
     gap: 1rem;
     align-items: center;
@@ -15,4 +16,18 @@
 .img {
     background-image: url('../../../asset/User.png');
     border-radius: 100%;
+}
+
+@media only screen and (max-width: 1200px){
+    .user {
+        width: 17rem; 
+    }
+}
+@media only screen and (max-width: 600px){
+	.user {
+        width: 100%; 
+    }
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
 }

@@ -1,0 +1,80 @@
+.card_list {
+    width: 15rem;
+    height: 20rem;
+    border: 1px solid rgb(37, 36, 36);
+    position: relative;
+    /* margin: 0 10px; */
+    padding-bottom: 1rem;
+}
+
+.card_img {
+    background: #0F0F0F;
+    height: 100%;
+    padding: .5rem 1rem 3rem 1rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid rgb(37, 36, 36);
+    margin: 1rem 1.5rem 0 1.5rem;
+}
+
+.card_img img {
+    width: 100%;
+}
+
+
+.card_img div {
+    padding: -.2rem 2rem 3rem 2rem;
+}
+
+
+.back_drop {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 2rem;
+    height: 100%;
+
+}
+
+.back_drop div {
+    width: 1.5rem;
+    height: calc(100% - 2rem);
+}
+
+.card_descripition {
+    /* position: absolute; */
+    bottom: 1rem;
+    height: 7rem;
+    z-index: 5;
+    width: 100%;
+    background: linear-gradient(89.79deg, #AB491C -19.39%, #DDAE45 123.38%);
+}
+
+.playlist_cover {
+    height: 10rem;
+    width: 100%;
+}
+
+.tittle {
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.desc {
+    padding: 0 1rem;
+    font-size: 14px;
+    font-size: 14px;
+    /* line-height: 1rem; */
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+     
+}
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    
+}

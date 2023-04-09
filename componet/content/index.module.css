@@ -1,9 +1,47 @@
 .content {
-    width: 100%;
+    /* width: 80vw; */
 }
 
-.card {
-    width: 98%;
+.user {
+    display: none;
+}
+
+.container {
+    width: 80vw;
     border: 1px solid rgb(37, 36, 36);
     padding: 8px;
+    /* margin-right: 4rem; */
+}
+
+.playlists {
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .playlists {
+        padding-right: 4rem;
+    }
+}
+@media only screen and (max-width: 600px){
+    .container {
+        padding: 0;
+    }
+
+	.content {
+        width: 100%;
+        margin-bottom: 6.5rem;
+    }
+
+    .user {
+        display: block;
+    }
+
+
+    .playlists {
+        border: 0;
+        padding-left: .5rem;
+    
+}
 }

@@ -6,10 +6,12 @@ import { Playlist } from "./Playlist";
 export const Sidebar = () => {
   return (
     <div className={classes.sidebar}>
-      <User />
-      <Nav />
-      <SubNav />
-      <Playlist />
+      <div>
+        <User />
+        <Nav />
+        <SubNav />
+        <Playlist />
+      </div>
     </div>
   );
 };
