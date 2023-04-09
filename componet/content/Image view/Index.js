@@ -5,7 +5,7 @@ export const HeroImage = () => {
   return (
     <div className={classes.img}>
       <UduXIcon />
-      <img src="/om" alt="omah lay" />
+      <div></div>
     </div>
   );
 };

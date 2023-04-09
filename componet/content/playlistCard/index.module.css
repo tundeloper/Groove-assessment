@@ -65,7 +65,6 @@
 .desc {
     padding: 0 1rem;
     font-size: 14px;
-    font-size: 12px;
     /* line-height: 1rem; */
 }
 
@@ -80,5 +79,10 @@
         width: 14rem;
         height: 19rem;
         
+    }
+
+    .desc {
+        font-size: 12px;
+
     }
 }
