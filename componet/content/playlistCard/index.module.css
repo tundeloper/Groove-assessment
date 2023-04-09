@@ -65,7 +65,7 @@
 .desc {
     padding: 0 1rem;
     font-size: 14px;
-    font-size: 14px;
+    font-size: 12px;
     /* line-height: 1rem; */
 }
 
@@ -76,5 +76,9 @@
 
 @media only screen and (max-width: 600px){
 	/*Big smartphones [426px -> 600px]*/
-    
+    .card_list {
+        width: 14rem;
+        height: 19rem;
+        
+    }
 }
