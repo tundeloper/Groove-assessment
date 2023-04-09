@@ -36,7 +36,7 @@
 @media only screen and (max-width: 600px){
 	/*Big smartphones [426px -> 600px]*/
     .card_list {
-        width: 100vw;
+        width: 95vw;
         gap: 1rem;
         padding-right: 1.5rem;
     }
